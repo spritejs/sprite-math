@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "nyc ava",
+    "test": "nyc ava && mkdir ./coverage && nyc report --reporter=text-lcov > ./coverage/lcov.info",
     "lint": "eslint 'src/**/*.js' --fix",
     "compile": "rm -rf lib/* && babel src -d lib --watch",
     "prepublishOnly": "rm -rf lib/* && babel src -d lib"
