@@ -22,9 +22,7 @@
     "url": "https://github.com/spritejs/sprite-math/issues"
   },
   "browser": {
-    "./lib/index.js": "./src/index.js",
-    "./matrix": "../src/matrix.js",
-    "./vector": "../src/vector.js"
+    "./lib/index.js": "./src/index.js"
   },
   "devDependencies": {
     "ava": "^0.21.0",
