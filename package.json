@@ -1,9 +1,9 @@
 {
   "name": "sprite-math",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Matrix and Vector model for spritejs.",
   "main": "lib/index.js",
-  "browser": {
+  "esnext": {
     "./lib/index.js": "./src/index.js"
   },
   "directories": {
