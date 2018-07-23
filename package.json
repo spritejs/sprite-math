@@ -1,8 +1,11 @@
 {
   "name": "sprite-math",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Matrix and Vector model for spritejs.",
   "main": "lib/index.js",
+  "browser": {
+    "./lib/index.js": "./src/index.js"
+  },
   "directories": {
     "lib": "lib"
   },
@@ -20,9 +23,6 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/spritejs/sprite-math/issues"
-  },
-  "browser": {
-    "./lib/index.js": "./src/index.js"
   },
   "devDependencies": {
     "ava": "^0.21.0",
