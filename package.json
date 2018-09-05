@@ -3,9 +3,6 @@
   "version": "1.0.4",
   "description": "Matrix and Vector model for spritejs.",
   "main": "lib/index.js",
-  "esnext": {
-    "./lib/index.js": "./src/index.js"
-  },
   "directories": {
     "lib": "lib"
   },
